@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CadastroUsuario">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center"
+        tools:context=".activity_cadastro_cadastro_usuario">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/titulo_cadastro_usuario"
+            style="@style/textTitulo"/>
+
+        <EditText
+            style="@style/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtNome"
+            android:inputType="text"
+            android:hint="@string/txtNome"/>
+
+        <EditText
+            style="@style/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtSobrenome"
+            android:inputType="text"
+            android:hint="@string/txtSobrenome"/>
+
+        <EditText
+            style="@style/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtEmail"
+            android:inputType="text"
+            android:hint="@string/txtEmail"/>
+
+        <EditText
+            style="@style/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtLogin"
+            android:inputType="textEmailAddress"
+            android:hint="@string/txtLogin"/>
+
+        <EditText
+            style="@style/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtSenha"
+            android:inputType="textPassword"
+            android:hint="@string/txtSenha"/>
+
+        <Button
+            style="@style/btnForm"
+            android:id="@+id/btnCadastrarUsuario"
+            android:text="@string/cadastrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CadastroLivro">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center"
+        tools:context=".activity_cadastro_cadastro_livro">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cadastrolivro"
+            style="@style/textTitulo"/>
+
+        <EditText
+            style="@style/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtNomeTitulo"
+            android:inputType="text"
+            android:hint="@string/txtNomeLivro"/>
+
+        <EditText
+            style="@style/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtDescricao"
+            android:inputType="text"
+            android:hint="@string/txtDescricao"/>
+
+        <EditText
+            style="@style/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtLivroFoto"
+            android:inputType="text"
+            android:hint="@string/txtLivroFoto"/>
+
+
+        <Button
+            style="@style/btnForm"
+            android:id="@+id/btnCadastrarLivro"
+            android:text="@string/cadastrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</ScrollView>
